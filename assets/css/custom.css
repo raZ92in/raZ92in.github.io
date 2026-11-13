@@ -22,7 +22,7 @@
   --background-color: #ffffff; /* Background color for the entire website, including individual sections */
   --default-color: #272829; /* Default color used for the majority of the text content across the entire website */
   --heading-color: #000000; /* Color for headings, subheadings and title throughout the website */
-  --accent-color: #ff0000; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
+  --accent-color: #82b535; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
   --surface-color: #ffffff; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
   --contrast-color: #ffffff; /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
 }
@@ -30,7 +30,7 @@
 /* Nav Menu Colors - The following color variables are used specifically for the navigation menu. They are separate from the global colors to allow for more customization options */
 :root {
   --nav-color: #45505b;  /* The default color of the main navmenu links */
-  --nav-hover-color: #0563bb; /* Applied to main navmenu links when they are hovered over or active */
+  --nav-hover-color: #000000; /* Applied to main navmenu links when they are hovered over or active */
   --nav-mobile-background-color: #ffffff; /* Used as the background color for mobile navigation menu */
   --nav-dropdown-background-color: #ffffff; /* Used as the background color for dropdown items that appear when hovering over primary navigation items */
   --nav-dropdown-color: #212529; /* Used for navigation links of the dropdown items in the navigation menu. */
@@ -85,8 +85,7 @@ h5,
 h6 {
   color: var(--heading-color);
   font-family: var(--heading-font);
-  color: coral;
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  color: rgb(0, 0, 0);
 }
 
 /* PHP Email Form Messages
@@ -553,8 +552,8 @@ section,
 .hero h2 {
   margin: 0;
   font-size: 64px;
-  font-weight: 700;
-  color: coral;
+  font-weight: 500;
+  color: rgb(0, 0, 0);
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
@@ -601,23 +600,31 @@ section,
 .about .content h2 {
   font-weight: 700;
   font-size: 24px;
-  color: coral;
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  color: rgb(0, 0, 0);
+  background-color: lightgray;
+  border-radius: 50px;
+  text-align: center;
 }
 
 .about .content ul {
   list-style: none;
   padding: 0px;
+  background-color: lightgray;
+  
 }
 
 .about .content ul li {
   margin-bottom: 0px;
   display: flex;
   align-items: center;
+  background-color: lightgray;
+  
 }
 
 .about .content ul strong {
   margin-right: 0px;
+  background-color: lightgray;
+  
 }
 
 .about .content ul i {
@@ -625,45 +632,8 @@ section,
   margin-right: 0px;
   color: var(--accent-color);
   line-height: 0;
-}
-
-/*--------------------------------------------------------------
-# Stats Section
---------------------------------------------------------------*/
-.stats i {
-  background-color: var(--accent-color);
-  color: var(--contrast-color);
-  width: 54px;
-  height: 54px;
-  font-size: 24px;
-  border-radius: 50px;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-  z-index: 1;
-}
-
-.stats .stats-item {
-  margin-top: 10px;
-  width: 100%;
-  position: relative;
-  text-align: center;
-  z-index: 0;
-}
-
-.stats .stats-item span {
-  font-size: 36px;
-  display: block;
-  font-weight: 700;
-  color: color-mix(in srgb, var(--default-color), transparent 20%);
-}
-
-.stats .stats-item p {
-  padding: 0;
-  margin: 0;
-  color: color-mix(in srgb, var(--default-color), transparent 50%);
-  font-size: 16px;
+  background-color: lightgray;
+  
 }
 
 /*--------------------------------------------------------------
@@ -672,8 +642,9 @@ section,
 .skills .progress {
   height: 60px;
   display: block;
-  background: none;
+  background-color: lightgray;
   border-radius: 0;
+  margin: 20px 20px 20px 20px;
 }
 
 .skills .progress .skill {
@@ -684,16 +655,19 @@ section,
   display: block;
   font-weight: 600;
   font-family: var(--heading-font);
+  margin: 20px 20px 20px 20px;
 }
 
 .skills .progress .skill .val {
   float: right;
   font-style: normal;
+  margin: 20px 20px 20px 20px;
 }
 
 .skills .progress-bar-wrap {
   background: color-mix(in srgb, var(--default-color), transparent 90%);
   height: 10px;
+  margin: 20px 20px 20px 20px;
 }
 
 .skills .progress-bar {
@@ -701,6 +675,7 @@ section,
   height: 10px;
   transition: 0.9s;
   background-color: var(--accent-color);
+  margin: 20px 20px 20px 20px;
 }
 
 /*--------------------------------------------------------------
