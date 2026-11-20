@@ -537,38 +537,38 @@
               <div class="row gy-4">
 
                 <div class="col-md-6">
-                  <input id="vardas" type="text" name="name" class="form-control" placeholder="Vardas" required="">
+                  <input id="vardas" type="text" name="vardas" class="form-control" placeholder="Vardas" required="">
                 </div>
 
                 <div class="col-md-6">
-                  <input id="pavardė" type="text" name="lastname" class="form-control" placeholder="Pavardė" required="">
+                  <input id="pavardė" type="text" name="pavardė" class="form-control" placeholder="Pavardė" required="">
                 </div>
 
                 <div class="col-md-6">
-                  <input id="TelefonoNumeris" type="text" name="phone" class="form-control" placeholder="Telefono numeris" required="">
+                  <input id="TelefonoNumeris" type="text" name="telefonoNumeris" class="form-control" placeholder="Telefono numeris" required="">
                 </div>
 
                 <div class="col-md-6 ">
-                  <input id="ElPaštas" type="email" class="form-control" name="email" placeholder="El. paštas" required="">
+                  <input id="ElPaštas" type="email" class="form-control" name="elPaštas" placeholder="El. paštas" required="">
                 </div>
 
                 <div class="col-md-12">
-                  <input id="adresas" type="text" class="form-control" name="Adresas" placeholder="Adresas" required="">
+                  <input id="adresas" type="text" class="form-control" name="adresas" placeholder="Adresas" required="">
                 </div>
 
                 <p style="text-align: center; ">Paslaugų kokybė:</p>
                 <div class="col-md-12">
-                  <input type="range" class="form-control" name="subject" placeholder="Adresas" required="">
+                  <input type="range" class="form-control" name="paslaugųKokybė" required="">
                 </div>
 
                 <p style="text-align: center; ">Pristatymo laikas:</p>
                 <div class="col-md-12">
-                  <input type="range" class="form-control" name="subject" placeholder="Adresas" required="">
+                  <input type="range" class="form-control" name="pristatymoLaikas" required="">
                 </div>
 
                 <p style="text-align: center; ">Lūkesčių atitikimas:</p>
                 <div class="col-md-12">
-                  <input type="range" class="form-control" name="subject" placeholder="Adresas" required="">
+                  <input type="range" class="form-control" name="lūkesčiųAtitikimas" required="">
                 </div>
 
                 <div class="col-md-12 text-center">
@@ -637,20 +637,20 @@
     contactForm.addEventListener("submit", function (event) {
       event.preventDefault();
 
-      const formValues = {};
+      const formosDuomenys = {};
 
       new FormData(event.currentTarget).forEach(function (value, name) {
-        if (Object.prototype.hasOwnProperty.call(formValues, name)) {
-          formValues[name] = Array.isArray(formValues[name])
-            ? [...formValues[name], value]
-            : [formValues[name], value];
+        if (Object.prototype.hasOwnProperty.call(formosDuomenys, name)) {
+          formosDuomenys[name] = Array.isArray(formosDuomenys[name])
+            ? [...formosDuomenys[name], value]
+            : [formosDuomenys[name], value];
         } else {
-          formValues[name] = value;
+          formosDuomenys[name] = value;
         }
       });
 
-      window.formValues = formValues;
-      console.log(formValues);
+      window.formosDuomenys = formosDuomenys;
+      console.log(formosDuomenys);
     });
   </script>
   <script src="assets/js/custom.js"></script>
