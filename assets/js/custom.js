@@ -235,8 +235,8 @@ document.getElementById("adresas");
 const myForm = {
   vardas: document.getElementById("vardas"),
   pavardė: document.getElementById("pavardė"),
-  telefono-numeris: document.getElementById("telefono-numeris"),
-  el-paštas: document.getElementById("el-paštas"),
+  TelefonoNumeris: document.getElementById("TelefonoNumeris"),
+  ElPaštas: document.getElementById("ElPaštas"),
   adresas: document.getElementById("adresas")
 };
 
