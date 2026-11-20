@@ -8,27 +8,6 @@
 
 (function() {
 
-var NaudotojoVardas = document.getElementById("vardas");
-var NaudotojoVardoReiksme = NaudotojoVardas.value;
-
-var NaudotojoPavarde = document.getElementById("pavardė");
-var NaudotojoPavardesReiksme = NaudotojoPavarde.value;
-
-var TelefonoNumeris = document.getElementById("TelefonoNumeris");
-var TelefonoNumerioReiksme = TelefonoNumeris.value;
-
-var ElPaštas = document.getElementById("ElPaštas");
-var ElPaštoReiksme = ElPaštas.value;
-
-var Adresas = document.getElementById("Adresas");
-var AdresoReiksme = Adresas.value;
-
-console.log(NaudotojoVardoReiksme);
-console.log(NaudotojoPavardesReiksme);
-console.log(TelefonoNumerioReiksme);
-console.log(ElPaštoReiksme);
-console.log(AdresoReiksme);
-
   "use strict";
 
   /**
@@ -225,6 +204,28 @@ console.log(AdresoReiksme);
       }
     }
   });
+
+    var NaudotojoVardas = document.getElementById("vardas");
+    var NaudotojoVardoReiksme = NaudotojoVardas.value;
+
+    var NaudotojoPavarde = document.getElementById("pavardė");
+    var NaudotojoPavardesReiksme = NaudotojoPavarde.value;
+
+    var TelefonoNumeris = document.getElementById("TelefonoNumeris");
+    var TelefonoNumerioReiksme = TelefonoNumeris.value;
+
+    var ElPaštas = document.getElementById("ElPaštas");
+    var ElPaštoReiksme = ElPaštas.value;
+
+    var Adresas = document.getElementById("Adresas");
+    var AdresoReiksme = Adresas.value;
+
+    console.log(NaudotojoVardoReiksme);
+    console.log(NaudotojoPavardesReiksme);
+    console.log(TelefonoNumerioReiksme);
+    console.log(ElPaštoReiksme);
+    console.log(AdresoReiksme);
+
 
   /**
    * Navmenu Scrollspy
