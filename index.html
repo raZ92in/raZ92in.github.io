@@ -631,28 +631,6 @@
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
 
   <!-- Main JS File -->
-  <script>
-    const contactForm = document.querySelector(".php-email-form");
-
-    contactForm.addEventListener("submit", function (event) {
-      event.preventDefault();
-
-      const formosDuomenys = {};
-
-      new FormData(event.currentTarget).forEach(function (value, name) {
-        if (Object.prototype.hasOwnProperty.call(formosDuomenys, name)) {
-          formosDuomenys[name] = Array.isArray(formosDuomenys[name])
-            ? [...formosDuomenys[name], value]
-            : [formosDuomenys[name], value];
-        } else {
-          formosDuomenys[name] = value;
-        }
-      });
-
-      window.formosDuomenys = formosDuomenys;
-      console.log(formosDuomenys);
-    });
-  </script>
   <script src="assets/js/custom.js"></script>
 
 </body>
