@@ -226,4 +226,20 @@
   window.addEventListener('load', navmenuScrollspy);
   document.addEventListener('scroll', navmenuScrollspy);
 
+document.getElementById("vardas");
+document.getElementById("pavardė");
+document.getElementById("telefono-numeris");
+document.getElementById("el-paštas");
+document.getElementById("adresas");
+
+const myForm = {
+  vardas: document.getElementById("vardas"),
+  pavardė: document.getElementById("pavardė"),
+  telefono-numeris: document.getElementById("telefono-numeris"),
+  el-paštas: document.getElementById("el-paštas"),
+  adresas: document.getElementById("adresas")
+};
+
+console.log(myForm);
+
 })();
