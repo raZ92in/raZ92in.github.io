@@ -6,6 +6,12 @@
 * License: https://bootstrapmade.com/license/
 */
 
+var NaudotojoVardas = document.getElementById("vardas");
+var NaudotojoVardoReiksme = NaudotojoVardas.value;
+
+console.log(NaudotojoVardoReiksme);
+
+
 (function() {
   "use strict";
 
@@ -225,10 +231,5 @@
   }
   window.addEventListener('load', navmenuScrollspy);
   document.addEventListener('scroll', navmenuScrollspy);
-
-var NaudotojoVardas = document.getElementById("vardas");
-var NaudotojoVardoReiksme = NaudotojoVardas.value;
-
-console.log(NaudotojoVardoReiksme);
 
 })();
