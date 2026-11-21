@@ -18,7 +18,7 @@ function myFunction() {
 }
 
 function reiksmiuRodymas() {
-  document.getElementById('vardasdisp').innerHTML = document.getElementById('vardas').value;
+  document.getElementById('vardasdisp').innerHTML = 'Vardas: :' + document.getElementById('vardas').value;
 }
 
 (function() {
