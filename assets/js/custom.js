@@ -28,6 +28,11 @@ function reiksmiuRodymas() {
   document.getElementById('elpastasdisp').innerHTML = ElPastoRodymas;
 }
 
+function Vidurkis() {
+  let vidurkis = (parseFloat(document.getElementById('paslaugukokybe').value) + parseFloat(document.getElementById('pristatymolaikas').value) + parseFloat(document.getElementById('lukesciuatitikimas').value)) / 3;
+  document.getElementById('vidurkisdisp').innerHTML = document.getElementById('vardasdisp') + document.getElementById('pavardedisp') + ': ' + vidurkis;
+}
+
 (function() {
   "use strict";
 

@@ -529,21 +529,21 @@
                 </div>
 
                 <div class="col-md-12">
-                  <input id="paslaugukokybe" type="text" class="form-control" name="paslaugukokybe" placeholder="Paslaugų kokybė" required="">
+                  <input id="paslaugukokybe" type="text" class="form-control" name="paslaugukokybe" placeholder="Paslaugų kokybė (1-10)" required="">
                 </div>
 
                 <div class="col-md-12">
-                  <input id="pristatymolaikas" type="text" class="form-control" name="pristatymolaikas" placeholder="Pristatymo laikas" required="">
+                  <input id="pristatymolaikas" type="text" class="form-control" name="pristatymolaikas" placeholder="Pristatymo laikas (1-10)" required="">
                 </div>
 
                 <div class="col-md-12">
-                  <input id="lukesciuatitikimas" type="text" class="form-control" name="lukesciuatitikimas" placeholder="Lūkesčių atitikimas" required="">
+                  <input id="lukesciuatitikimas" type="text" class="form-control" name="lukesciuatitikimas" placeholder="Lūkesčių atitikimas (1-10)" required="">
                 </div>
 
                 </form>
 
                 <div class="col-md-12 text-center">
-                  <button id="siustiButton" type="button" onclick="myFunction(); reiksmiuRodymas();">Siųsti</button>
+                  <button id="siustiButton" type="button" onclick="myFunction(); reiksmiuRodymas(); Vidurkis();">Siųsti</button>
                 </div>
                  <div>
                 <h5 id="vardasdisp"></h5>
@@ -551,6 +551,7 @@
                 <h5 id="telefonasdisp"></h5>
                 <h5 id="elpastasdisp"></h5>
                 <h5 id="adresasdisp"></h5>
+                <h5 id="vidurkisdisp"></h5>
               </div>
              
 
