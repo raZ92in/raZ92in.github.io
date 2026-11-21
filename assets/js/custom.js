@@ -6,6 +6,17 @@
 * License: https://bootstrapmade.com/license/
 */
 
+function myFunction() {
+  const form = {
+    Vardas: document.getElementById('vardas').value,
+    Pavarde: document.getElementById('pavarde').value,
+    ElPastas: document.getElementById('elPastas').value,
+    Adresas: document.getElementById('adresas').value,
+    Telefonas: document.getElementById('telefonas').value};
+
+    console.log(form);
+}
+
 (function() {
   "use strict";
 
