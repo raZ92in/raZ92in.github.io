@@ -20,11 +20,11 @@ function myFunction() {
 function reiksmiuRodymas() {
   let VardoRodymas = "Vardas: " + document.getElementById('vardas').value;
   document.getElementById('vardasdisp').innerHTML = VardoRodymas;
-  let PavardesRodymas = ' ' + ' ' + "Pavarde: " + document.getElementById('pavarde').value;
+  let PavardesRodymas = 'Pavarde: ' + document.getElementById('pavarde').value;
   document.getElementById('pavardedisp').innerHTML = PavardesRodymas;
-  let TelefonoRodymas = ' ' + ' ' + "Tel. nr.: " + document.getElementById('telefonas').value;
+  let TelefonoRodymas = "Tel. nr.: " + document.getElementById('telefonas').value;
   document.getElementById('telefonasdisp').innerHTML = TelefonoRodymas;
-  let ElPastoRodymas = ' ' + ' ' + "El. pastas: " + document.getElementById('elPastas').value;
+  let ElPastoRodymas = "El. pastas: " + document.getElementById('elPastas').value;
   document.getElementById('elpastasdisp').innerHTML = ElPastoRodymas;
 }
 
