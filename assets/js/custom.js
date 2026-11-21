@@ -30,10 +30,7 @@ function reiksmiuRodymas() {
 
 function Vidurkis() {
   let vidurkis = (parseFloat(document.getElementById('paslaugukokybe').value) + parseFloat(document.getElementById('pristatymolaikas').value) + parseFloat(document.getElementById('lukesciuatitikimas').value)) / 3;
-  let vardelaitis = String(document.getElementById('vardasdisp').value);
-  let pavardyte = String(document.getElementById('pavardedisp').value);
-  let VardasPavarde = vardelaitis + pavardyte;
-  document.getElementById('vidurkisdisp').innerHTML = VardasPavarde + ': ' + vidurkis;
+  document.getElementById('vidurkisdisp').innerHTML = String(document.getElementById('vardasdisp').value) + String(document.getElementById('pavardedisp').value) + ': ' + vidurkis;
 }
 
 (function() {
