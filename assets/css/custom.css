@@ -1432,7 +1432,7 @@ section,
   color: var(--accent-color);
 }
 
-#siustiutton {
+#siustiButton {
   background-color: var(--accent-color);
   color: var(--contrast-color);
   border: none;
