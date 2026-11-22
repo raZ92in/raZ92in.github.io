@@ -27,7 +27,7 @@ function reiksmiuRodymas() {
   let ElPastoRodymas = "El. pastas: " + document.getElementById('elPastas').value;
   document.getElementById('elpastasdisp').innerHTML = ElPastoRodymas;
   let vidurkis = (parseFloat(document.getElementById('paslaugukokybe').value) + parseFloat(document.getElementById('pristatymolaikas').value) + parseFloat(document.getElementById('lukesciuatitikimas').value)) / 3;
-  let VardPavardVertinimoRodymas = document.getElementById('vardas').value + document.getElementById('pavarde').value + ': ' + vidurkis;
+  let VardPavardVertinimoRodymas = document.getElementById('vardas').value + ' ' + document.getElementById('pavarde').value + ': ' + vidurkis;
   document.getElementById('vidurkisdisp').innerHTML = VardPavardVertinimoRodymas;
 }
 
