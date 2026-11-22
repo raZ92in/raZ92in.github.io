@@ -6,13 +6,6 @@
 * License: https://bootstrapmade.com/license/
 */
 
-function Vidurkis() {
-  let vidurkis = (parseFloat(document.getElementById('paslaugukokybe').value) + parseFloat(document.getElementById('pristatymolaikas').value) + parseFloat(document.getElementById('lukesciuatitikimas').value)) / 3;
-  const VARDAS = document.getElementById('vardas').textContent;
-  const PAVARDE = document.getElementById('pavarde').textContent;
-  document.getElementById('vidurkisdisp').innerHTML = VARDAS + PAVARDE + ': ' + vidurkis;
-}
-
 function myFunction() {
   const form = {
     Vardas: document.getElementById('vardas').value,
@@ -33,6 +26,9 @@ function reiksmiuRodymas() {
   document.getElementById('telefonasdisp').innerHTML = TelefonoRodymas;
   let ElPastoRodymas = "El. pastas: " + document.getElementById('elPastas').value;
   document.getElementById('elpastasdisp').innerHTML = ElPastoRodymas;
+  let vidurkis = (parseFloat(document.getElementById('paslaugukokybe').value) + parseFloat(document.getElementById('pristatymolaikas').value) + parseFloat(document.getElementById('lukesciuatitikimas').value)) / 3;
+  let VardPavardVertinimoRodymas = document.getElementById('vardas').value + document.getElementById('pavarde').value + ': ' + vidurkis;
+  document.getElementById('vidurkisdisp').innerHTML = VardPavardVertinimoRodymas;
 }
 
 (function() {
