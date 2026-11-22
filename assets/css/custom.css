@@ -1586,7 +1586,8 @@ section,
 }
 
 #VietosPadarymas {
-  margin-top: 2880px;
+  position: absolute;
+  top: 2880px;
   height: 1440px;
 }
 
