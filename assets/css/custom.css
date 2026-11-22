@@ -1448,6 +1448,365 @@ section,
   background-color: #E2EBCB;
 }
 
+#planuojama2 {
+  position: absolute;
+  top: 10px;
+  left: 580px;
+  background-color: #EBCBCB;
+  width: 550px;
+  height: 700px;
+  border-radius: 5px
+}
+
+#div2 {
+  position: absolute;
+  top: -35px;
+  left: 15px;
+  font-size: 50px;
+  font-family: 'Brush Script MT', cursive;
+  color: #C56767;
+}
+
+#IgudzioPavadinimas2 {
+  position: absolute;
+  top: -15px;
+  left: 7px;
+  font-family: "Pixelify Sans", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  color: #341414;
+}
+
+#planuojama {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: #F5F8ED;
+  width: 550px;
+  height: 700px;
+  border-radius: 5px
+}
+
+#igudziai3 {
+  position: absolute;
+  top: 75px;
+  left: 20px;
+  height: 200px;
+  width: 450px;
+  background-color: #E3B6B6;
+  margin-left: 5px;
+}
+
+#igudziai {
+  position: absolute;
+  top: 75px;
+  left: 20px;
+  height: 200px;
+  width: 450px;
+  background-color: #D6E3B6;
+  margin-left: 5px;
+}
+
+#juostele {
+  position: absolute;
+  top: 75px;
+  left: 20px;
+  background-color: #7D983A;
+  height: 200px;
+  width: 5px;
+}
+
+#IgudzioPavadinimas {
+  position: absolute;
+  top: -15px;
+  left: 7px;
+  font-family: "Pixelify Sans", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  color: #2B3414;
+}
+
+#xp {
+  position: absolute;
+  top: 50px;
+  left: 5px;
+  background-color: #F5F8ED;
+  height: 140px;
+  width: 435px;
+}
+
+#xp2 {
+  position: absolute;
+  top: 50px;
+  left: 5px;
+  background-color: #F8EDED;
+  height: 140px;
+  width: 435px;
+}
+
+#IgudzioXP {
+  position: absolute;
+  top: -16px;
+  left: 10px;
+  font-family: Calibri;
+  font-weight: 900;
+}
+
+#IgudzioXPBackground {
+  position: absolute;
+  top: 112px;
+  left: 10px;
+  background-color: #98B946;
+  width: 60px;
+  height: 20px;
+}
+
+#IgudzioAprasas {
+  position: absolute;
+  top: -120px;
+  left: 0px;
+  color: #0F1207;
+  width: 450px;
+  font-family: Calibri;
+}
+
+#igudziai2 {
+  position: absolute;
+  top: 290px;
+  left: 20px;
+  height: 200px;
+  width: 450px;
+  background-color: #D6E3B6;
+  margin-left: 5px;
+}
+
+#IgudzioPavadinimas2 {
+  position: absolute;
+  top: -15px;
+  left: 7px;
+  font-family: "Pixelify Sans", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  color: #2B3414;
+}
+
+#xp2 {
+  position: absolute;
+  top: 50px;
+  left: 5px;
+  background-color: #F5F8ED;
+  height: 140px;
+  width: 435px;
+}
+
+#IgudzioXPBackground2 {
+  position: absolute;
+  top: 112px;
+  left: 10px;
+  background-color: #98B946;
+  width: 60px;
+  height: 20px;
+}
+
+#IgudzioXPBackground3 {
+  position: absolute;
+  top: 112px;
+  left: 10px;
+  background-color: #B94646;
+  width: 60px;
+  height: 20px;
+}
+
+#IgudzioAprasas2 {
+  position: absolute;
+  top: -120px;
+  left: 0px;
+  color: #0F1207;
+  width: 450px;
+  font-family: Calibri;
+}
+
+#IgudzioXP2 {
+  position: absolute;
+  top: -16px;
+  left: 10px;
+  font-family: Calibri;
+  font-weight: 900;
+}
+
+#juostele2 {
+  position: absolute;
+  top: 290px;
+  left: 20px;
+  background-color: #7D983A;
+  height: 200px;
+  width: 5px;
+}
+
+#div {
+  position: absolute;
+  top: -35px;
+  left: 15px;
+  font-size: 50px;
+  font-family: 'Brush Script MT', cursive;
+  color: #ABC567
+}
+
+#laisva {
+  position: absolute;
+  top: 1080px;
+}
+
+#PlanMokAtl {
+  display: flex;
+}
+
+
+#planned {
+  background-color: #E2EBCB;
+  width: 450px;
+  height: 450px;
+  margin-left: 100px;
+  border-radius: 5px;
+}
+
+#plannedText {
+  color: #ABC567;
+  font-family: 'Brush Script MT', cursive;
+  font-size: 50px;
+  font-weight: 900;
+  text-align: center;
+}
+
+#learning {
+  margin-left: 20px;
+  width: 450px;
+  height: 450px;
+  border-radius: 5px;
+  background-color: #EBCBCB;
+}
+
+#learningText {
+  color: #C56767;
+  font-family: 'Brush Script MT', cursive;
+  font-size: 50px;
+  font-weight: 900;
+  text-align: center;
+}
+
+#done {
+  margin-left: 20px;
+  width: 450px;
+  height: 450px;
+  border-radius: 5px;
+  background-color: #CBDAEB;
+}
+
+#doneText {
+  color: #6792C5;
+  font-family: 'Brush Script MT', cursive;
+  font-size: 50px;
+  font-weight: 900;
+  text-align: center;
+}
+
+#XPLygRangProc {
+  background-color: lightgray;
+  width: 1390px;
+  margin-left: 100px;
+  height: 250px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+#BendrasLygisRangas {
+  display: flex;
+
+}
+
+#bendrasXPjuostele {
+  margin-left: 20px;
+  margin-top: 20px;
+  background-color: darkgray;
+  height: 150px;
+  width: 5px;
+}
+
+#bendrasXP {
+  margin-left: 0px;
+  margin-top: 20px;
+  background-color: white;
+  height: 150px;
+  width: 430px;
+}
+
+#lygisjuostele {
+  margin-left: 20px;
+  margin-top: 20px;
+  background-color: darkgray;
+  height: 150px;
+  width: 5px;
+}
+
+#lygis {
+  margin-left: 0px;
+  margin-top: 20px;
+  background-color: white;
+  height: 150px;
+  width: 430px;
+}
+
+#rangasjuostele {
+  margin-left: 20px;
+  margin-top: 20px;
+  background-color: darkgray;
+  height: 150px;
+  width: 5px;
+}
+
+#rangas {
+  margin-left: 0px;
+  margin-top: 20px;
+  background-color: white;
+  height: 150px;
+  width: 430px;
+}
+
+#bendrasXPtext {
+  margin-left: 20px;
+  font-family: "Pixelify Sans", sans-serif;
+  font-weight: 100;
+  color: lightgray;
+}
+
+#XPskaicius {
+  margin-left: 20px;
+  font-family: Calibri;
+  font-weight: 900;
+  font-size: 50px;
+  color: black;
+}
+
+#termometras {
+  height: 15px;
+  width: 1350px;
+  background-color: #5C92FF;
+  margin-left: 20px;
+  margin-top: 35px;
+  border-radius: 1000px;
+  border-width: 1px;
+  border-color: black;
+}
+
+#termometras2 {
+  height: 15px;
+  width: 860px;
+  background-color: #0057FF;
+  margin-left: 0px;
+  margin-top: 2px;
+  border-radius: 1000px;
+}
+
 /*--------------------------------------------------------------
 # Starter Section Section
 --------------------------------------------------------------*/
