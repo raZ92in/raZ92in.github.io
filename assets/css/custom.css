@@ -1514,7 +1514,7 @@ section,
 
 #igudziai2 {
   position: absolute;
-  top: 420px;
+  top: 2880px;
   left: 50px;
   height: 200px;
   width: 450px;
@@ -1576,7 +1576,7 @@ section,
   width: 5px;
 }
 
-div1 {
+#div123 {
   position: absolute;
   top: -100px;
   left: 5px;
