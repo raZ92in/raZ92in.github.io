@@ -6,40 +6,30 @@
 * License: https://bootstrapmade.com/license/
 */
 
-function reiksmiuRodymas() {
-    let inputVardas = document.getElementById('vardas').value;
-    let inputPavarde = document.getElementById('pavarde').value;
-    let inputTelefonas = document.getElementById('pavarde').value;
-    let inputPastas = document.getElementById('pavarde').value;
-    let inputAdresas = document.getElementById('pavarde').value;
-    let inputPaslaugos = document.getElementById('paslaugukokybe').value;
-    let inputPristatymas = document.getElementById('pristatymolaikas').value;
-    let inputLukesciai = document.getElementById('lukesciuatitikimas').value;
-
-  if (inputVardas != '' && inputPavarde != '' && inputTelefonas != '' && inputPastas != '' && inputAdresas != '' && inputPaslaugos != '' && inputPristatymas != '' && inputLukesciai != '') {
-    let VardoRodymas = "Vardas: " + inputVardas;
-    document.getElementById('vardasdisp').innerHTML = VardoRodymas;
-    let PavardesRodymas = 'Pavarde: ' + inputPavarde;
-    document.getElementById('pavardedisp').innerHTML = PavardesRodymas;
-    let TelefonoRodymas = "Tel. nr.: " + inputTelefonas;
-    document.getElementById('telefonasdisp').innerHTML = TelefonoRodymas;
-    let ElPastoRodymas = "El. pastas: " + inputPastas;
-    document.getElementById('elpastasdisp').innerHTML = ElPastoRodymas;
-    let vidurkis = (parseFloat(inputPaslaugos) + parseFloat(inputPristatymas) + parseFloat(inputLukesciai)) / 3;
-    let VardPavardVertinimoRodymas = document.getElementById('vardas').value + '_' + document.getElementById('pavarde').value + ': ' + vidurkis;
-    document.getElementById('vidurkisdisp').innerHTML = VardPavardVertinimoRodymas;
-  }
-}
-
 function myFunction() {
   const form = {
     Vardas: document.getElementById('vardas').value,
     Pavarde: document.getElementById('pavarde').value,
     ElPastas: document.getElementById('elPastas').value,
     Adresas: document.getElementById('adresas').value,
-    Telefonas: document.getElementById('telefonas').value};
+    Telefonas: document.getElementById('telefonas').value
+  };
 
-    console.log(form);
+  console.log(form);
+  
+  if (form.Vardas != '' && form.Pavarde != '' && form.ElPastas != '' && form.Adresas != '' && form.Telefonas != '') {
+    let VardoRodymas = "Vardas: " + form.Vardas;
+    document.getElementById('vardasdisp').innerHTML = VardoRodymas;
+    let PavardesRodymas = 'Pavarde: ' + form.Pavarde;
+    document.getElementById('pavardedisp').innerHTML = PavardesRodymas;
+    let TelefonoRodymas = "Tel. nr.: " + form.Telefonas;
+    document.getElementById('telefonasdisp').innerHTML = TelefonoRodymas;
+    let ElPastoRodymas = "El. pastas: " + form.ElPastas;
+    document.getElementById('elpastasdisp').innerHTML = ElPastoRodymas;
+    let vidurkis = (parseFloat(document.getElementById('paslaugukokybe').value) + parseFloat(document.getElementById('pristatymolaikas').value) + parseFloat(document.getElementById('lukesciuatitikimas').value)) / 3;
+    let VardPavardVertinimoRodymas = document.getElementById('vardas').value + '_' + document.getElementById('pavarde').value + ': ' + vidurkis;
+    document.getElementById('vidurkisdisp').innerHTML = VardPavardVertinimoRodymas;
+  }
 }
 
 (function() {
