@@ -18,17 +18,28 @@ function myFunction() {
 }
 
 function reiksmiuRodymas() {
-  let VardoRodymas = "Vardas: " + document.getElementById('vardas').value;
-  document.getElementById('vardasdisp').innerHTML = VardoRodymas;
-  let PavardesRodymas = 'Pavarde: ' + document.getElementById('pavarde').value;
-  document.getElementById('pavardedisp').innerHTML = PavardesRodymas;
-  let TelefonoRodymas = "Tel. nr.: " + document.getElementById('telefonas').value;
-  document.getElementById('telefonasdisp').innerHTML = TelefonoRodymas;
-  let ElPastoRodymas = "El. pastas: " + document.getElementById('elPastas').value;
-  document.getElementById('elpastasdisp').innerHTML = ElPastoRodymas;
-  let vidurkis = (parseFloat(document.getElementById('paslaugukokybe').value) + parseFloat(document.getElementById('pristatymolaikas').value) + parseFloat(document.getElementById('lukesciuatitikimas').value)) / 3;
-  let VardPavardVertinimoRodymas = document.getElementById('vardas').value + '_' + document.getElementById('pavarde').value + ': ' + vidurkis;
-  document.getElementById('vidurkisdisp').innerHTML = VardPavardVertinimoRodymas;
+    const inputVardas = document.getElementById('vardas').value;
+    const inputPavarde = document.getElementById('pavarde').value;
+    const inputTelefonas = document.getElementById('pavarde').value;
+    const inputPastas = document.getElementById('pavarde').value;
+    const inputAdresas = document.getElementById('pavarde').value;
+    const inputPaslaugos = document.getElementById('paslaugukokybe').value;
+    const inputPistatymas = document.getElementById('pristatymolaikas').value;
+    const inputLukesciai = document.getElementById('lukesciuatitikimas').value;
+    
+  if (inputVardas != '' && inputPavarde != '' && inputTelefonas != '' && inputPastas != '' && inputAdresas != '' && inputPaslaugos != '' && inputPristatymas != '' && inputLukesciai != '') {
+    let VardoRodymas = "Vardas: " + document.getElementById('vardas').value;
+    document.getElementById('vardasdisp').innerHTML = VardoRodymas;
+    let PavardesRodymas = 'Pavarde: ' + document.getElementById('pavarde').value;
+    document.getElementById('pavardedisp').innerHTML = PavardesRodymas;
+    let TelefonoRodymas = "Tel. nr.: " + document.getElementById('telefonas').value;
+    document.getElementById('telefonasdisp').innerHTML = TelefonoRodymas;
+    let ElPastoRodymas = "El. pastas: " + document.getElementById('elPastas').value;
+    document.getElementById('elpastasdisp').innerHTML = ElPastoRodymas;
+    let vidurkis = (parseFloat(document.getElementById('paslaugukokybe').value) + parseFloat(document.getElementById('pristatymolaikas').value) + parseFloat(document.getElementById('lukesciuatitikimas').value)) / 3;
+    let VardPavardVertinimoRodymas = document.getElementById('vardas').value + '_' + document.getElementById('pavarde').value + ': ' + vidurkis;
+    document.getElementById('vidurkisdisp').innerHTML = VardPavardVertinimoRodymas;
+  }
 }
 
 (function() {
