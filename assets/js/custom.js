@@ -6,26 +6,15 @@
 * License: https://bootstrapmade.com/license/
 */
 
-function myFunction() {
-  const form = {
-    Vardas: document.getElementById('vardas').value,
-    Pavarde: document.getElementById('pavarde').value,
-    ElPastas: document.getElementById('elPastas').value,
-    Adresas: document.getElementById('adresas').value,
-    Telefonas: document.getElementById('telefonas').value};
-
-    console.log(form);
-}
-
 function reiksmiuRodymas() {
-    const inputVardas = document.getElementById('vardas').value;
-    const inputPavarde = document.getElementById('pavarde').value;
-    const inputTelefonas = document.getElementById('pavarde').value;
-    const inputPastas = document.getElementById('pavarde').value;
-    const inputAdresas = document.getElementById('pavarde').value;
-    const inputPaslaugos = document.getElementById('paslaugukokybe').value;
-    const inputPristatymas = document.getElementById('pristatymolaikas').value;
-    const inputLukesciai = document.getElementById('lukesciuatitikimas').value;
+    let inputVardas = document.getElementById('vardas').value;
+    let inputPavarde = document.getElementById('pavarde').value;
+    let inputTelefonas = document.getElementById('pavarde').value;
+    let inputPastas = document.getElementById('pavarde').value;
+    let inputAdresas = document.getElementById('pavarde').value;
+    let inputPaslaugos = document.getElementById('paslaugukokybe').value;
+    let inputPristatymas = document.getElementById('pristatymolaikas').value;
+    let inputLukesciai = document.getElementById('lukesciuatitikimas').value;
 
   if (inputVardas != '' && inputPavarde != '' && inputTelefonas != '' && inputPastas != '' && inputAdresas != '' && inputPaslaugos != '' && inputPristatymas != '' && inputLukesciai != '') {
     let VardoRodymas = "Vardas: " + inputVardas;
@@ -40,6 +29,17 @@ function reiksmiuRodymas() {
     let VardPavardVertinimoRodymas = document.getElementById('vardas').value + '_' + document.getElementById('pavarde').value + ': ' + vidurkis;
     document.getElementById('vidurkisdisp').innerHTML = VardPavardVertinimoRodymas;
   }
+}
+
+function myFunction() {
+  const form = {
+    Vardas: document.getElementById('vardas').value,
+    Pavarde: document.getElementById('pavarde').value,
+    ElPastas: document.getElementById('elPastas').value,
+    Adresas: document.getElementById('adresas').value,
+    Telefonas: document.getElementById('telefonas').value};
+
+    console.log(form);
 }
 
 (function() {
