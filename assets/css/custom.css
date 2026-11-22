@@ -1432,6 +1432,10 @@ section,
   color: var(--accent-color);
 }
 
+#siustiButton {
+  background-color: var(--accent-color);
+}
+
 /*--------------------------------------------------------------
 # Starter Section Section
 --------------------------------------------------------------*/
