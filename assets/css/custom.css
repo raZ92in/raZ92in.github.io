@@ -1434,7 +1434,7 @@ section,
 
 #siustiButton {
   background-color: var(--accent-color);
-  border-style: none;
+  border-radius: 10px;
 }
 
 /*--------------------------------------------------------------
