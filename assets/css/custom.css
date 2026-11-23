@@ -1535,15 +1535,6 @@ section,
   width: 435px;
 }
 
-#xp2 {
-  position: absolute;
-  top: 50px;
-  left: 5px;
-  background-color: #F8EDED;
-  height: 140px;
-  width: 435px;
-}
-
 #IgudzioXP {
   position: absolute;
   top: -16px;
@@ -1665,15 +1656,15 @@ section,
 #planned {
   background-color: #E2EBCB;
   width: 450px;
-  height: 450px;
+  height: 800px;
   margin-left: 100px;
-  border-radius: 5px;
+  border-radius: 5000000px;
 }
 
 #plannedText {
-  color: #ABC567;
+  color: black;
   font-family: 'Brush Script MT', cursive;
-  font-size: 50px;
+  font-size: 100px;
   font-weight: 900;
   text-align: center;
 }
@@ -1681,15 +1672,15 @@ section,
 #learning {
   margin-left: 20px;
   width: 450px;
-  height: 450px;
-  border-radius: 5px;
-  background-color: #EBCBCB;
+  height: 800px;
+  border-radius: 500000px;
+  background-color: #ebcccc;
 }
 
 #learningText {
-  color: #C56767;
+  color: black;
   font-family: 'Brush Script MT', cursive;
-  font-size: 50px;
+  font-size: 100px;
   font-weight: 900;
   text-align: center;
 }
@@ -1697,15 +1688,15 @@ section,
 #done {
   margin-left: 20px;
   width: 450px;
-  height: 450px;
-  border-radius: 5px;
+  height: 800px;
+  border-radius: 500000px;
   background-color: #CBDAEB;
 }
 
 #doneText {
-  color: #6792C5;
+  color: black;
   font-family: 'Brush Script MT', cursive;
-  font-size: 50px;
+  font-size: 100px;
   font-weight: 900;
   text-align: center;
 }
@@ -1717,6 +1708,7 @@ section,
   height: 250px;
   margin-bottom: 20px;
   border-radius: 5px;
+  box-shadow: 5px 5px 5px gray;
 }
 
 #BendrasLygisRangas {
@@ -1805,6 +1797,432 @@ section,
   margin-left: 0px;
   margin-top: 2px;
   border-radius: 1000px;
+}
+
+#learn1 {
+  background-color: #b94648;
+  width: 400px;
+  height: 200px;
+  margin-left: 25px;
+  position: absolute;
+  top: 2030px;
+  left: 570px;
+}
+
+#learn2 {
+  background-color: #b94648;
+  width: 400px;
+  height: 200px;
+  margin-left: 25px;
+  position: absolute;
+  top: 2250px;
+  left: 570px;
+}
+
+#learn3 {
+  background-color: #b94648;
+  width: 400px;
+  height: 200px;
+  margin-left: 25px;
+  position: absolute;
+  top: 2470px;
+  left: 570px;
+}
+
+#done1 {
+  background-color: #4648b9;
+  width: 400px;
+  height: 200px;
+  margin-left: 25px;
+  position: absolute;
+  top: 2030px;
+  left: 1040px;
+}
+
+#done2 {
+  background-color: #4648b9;
+  width: 400px;
+  height: 200px;
+  margin-left: 25px;
+  position: absolute;
+  top: 2250px;
+  left: 1040px;
+}
+
+#learn1header {
+  font-family: "Pixelify Sans", sans-serif;
+  font-weight: 100;
+  font-size: 30px;
+  margin-left: 13px;
+  margin-top: 3px;
+  color: #331415;
+}
+
+#learn2header {
+  font-family: "Pixelify Sans", sans-serif;
+  font-weight: 100;
+  font-size: 30px;
+  margin-left: 13px;
+  margin-top: 3px;
+  color: #331415;
+}
+
+#learn3header {
+  font-family: "Pixelify Sans", sans-serif;
+  font-weight: 100;
+  font-size: 30px;
+  margin-left: 13px;
+  margin-top: 3px;
+  color: #331415;
+}
+
+
+#done1header {
+  font-family: "Pixelify Sans", sans-serif;
+  font-weight: 100;
+  font-size: 30px;
+  margin-left: 13px;
+  margin-top: 3px;
+  color: #151433;
+}
+
+#done2header {
+  font-family: "Pixelify Sans", sans-serif;
+  font-weight: 100;
+  font-size: 30px;
+  margin-left: 13px;
+  margin-top: 3px;
+  color: #151433;
+}
+
+#plan1 {
+  background-color: #98b946;
+  width: 400px;
+  height: 200px;
+  margin-left: 25px;
+  position: absolute;
+  top: 2030px;
+  left: 100px;
+}
+
+#plan2 {
+  background-color: #98b946;
+  width: 400px;
+  height: 200px;
+  margin-left: 25px;
+  margin-top: 150px;
+  position: absolute;
+  top: 2030px;
+  left: 100px;
+}
+
+#learn1tikslas {
+  background-color: #f8eded;
+  width: 385px;
+  height: 153px;
+  position: absolute;
+  top: 40px;
+  left: 10px;
+  font-family: Calibri;
+}
+
+#learn2tikslas {
+  background-color: #f8eded;
+  width: 385px;
+  height: 153px;
+  position: absolute;
+  top: 40px;
+  left: 10px;
+  font-family: Calibri;
+}
+
+#learn3tikslas {
+  background-color: #f8eded;
+  width: 385px;
+  height: 153px;
+  position: absolute;
+  top: 40px;
+  left: 10px;
+  font-family: Calibri;
+}
+
+#done1tikslas {
+  background-color: #ededf8;
+  width: 385px;
+  height: 153px;
+  position: absolute;
+  top: 40px;
+  left: 10px;
+  font-family: Calibri;
+}
+
+#done2tikslas {
+  background-color: #ededf8;
+  width: 385px;
+  height: 153px;
+  position: absolute;
+  top: 40px;
+  left: 10px;
+  font-family: Calibri;
+}
+
+#plan1juostele {
+  background-color: black;
+  width: 5px;
+  height: 200px;
+  margin-left: 25px;
+  position: absolute;
+  top: 2030px;
+  left: 100px;
+}
+
+#plan2juostele {
+  background-color: black;
+  width: 5px;
+  height: 200px;
+  margin-left: 25px;
+  position: absolute;
+  top: 2250px;
+  left: 100px;
+}
+
+#learn1juostele {
+  background-color: black;
+  width: 5px;
+  height: 200px;
+  margin-left: 25px;
+  position: absolute;
+  top: 2030px;
+  left: 570px;
+}
+
+#learn2juostele {
+  background-color: black;
+  width: 5px;
+  height: 200px;
+  margin-left: 25px;
+  position: absolute;
+  top: 2250px;
+  left: 570px;
+}
+
+#learn3juostele {
+  background-color: black;
+  width: 5px;
+  height: 200px;
+  margin-left: 25px;
+  position: absolute;
+  top: 2470px;
+  left: 570px;
+}
+
+#done1juostele {
+  background-color: black;
+  width: 5px;
+  height: 200px;
+  margin-left: 25px;
+  position: absolute;
+  top: 2030px;
+  left: 1040px;
+}
+
+#done2juostele {
+  background-color: black;
+  width: 5px;
+  height: 200px;
+  margin-left: 25px;
+  position: absolute;
+  top: 2250px;
+  left: 1040px;
+}
+
+#plan1tikslas {
+  background-color: #f5f8ed;
+  width: 385px;
+  height: 153px;
+  position: absolute;
+  top: 40px;
+  left: 10px;
+  font-family: Calibri;
+}
+
+#plan2tikslas {
+  background-color: #f5f8ed;
+  width: 385px;
+  height: 153px;
+  position: absolute;
+  top: 40px;
+  left: 10px;
+  font-family: Calibri;
+}
+
+#plan1header {
+  font-family: "Pixelify Sans", sans-serif;
+  font-weight: 100;
+  font-size: 30px;
+  margin-left: 13px;
+  margin-top: 3px;
+  color: #2b3414;
+}
+
+#plan2header {
+  font-family: "Pixelify Sans", sans-serif;
+  font-weight: 100;
+  font-size: 30px;
+  margin-left: 13px;
+  margin-top: 3px;
+  color: #2b3414;
+}
+
+#ismokti {
+  margin-left: 5px;
+}
+
+#ismokti2 {
+  margin-left: 5px;
+}
+
+#ismokti3 {
+  margin-left: 5px;
+}
+
+#igyti {
+  margin-left: 5px;
+}
+
+#igyti2 {
+  margin-left: 5px;
+}
+
+#islaikyti {
+  margin-left: 5px;
+}
+
+#islaikyti2 {
+  margin-left: 5px;
+}
+
+#xp1 {
+  background-color: #5c92ff;
+  width: 50px;
+  margin-left: 5px;
+  margin-top: 105px;
+  border-radius: 50000px;
+}
+
+#xp2 {
+  background-color: #5c92ff;
+  width: 50px;
+  height: 19px;
+  margin-left: 0px;
+  margin-top: 118px;
+  border-radius: 50000px;
+  position: absolute;
+  top: 10px;
+}
+
+#xp3 {
+  background-color: #5c92ff;
+  width: 50px;
+  height: 19px;
+  margin-left: 5px;
+  margin-top: 118px;
+  border-radius: 50000px;
+  position: absolute;
+  top: 10px;
+}
+
+#xp4 {
+  background-color: #5c92ff;
+  width: 50px;
+  margin-left: 5px;
+  margin-top: 105px;
+  border-radius: 50000px;
+}
+
+#xp5 {
+  background-color: #5c92ff;
+  width: 50px;
+  margin-left: 5px;
+  margin-top: 105px;
+  border-radius: 50000px;
+}
+
+#xp6 {
+  background-color: #5c92ff;
+  width: 50px;
+  margin-left: 5px;
+  margin-top: 105px;
+  border-radius: 50000px;
+}
+
+#xp7 {
+  background-color: #5c92ff;
+  width: 50px;
+  margin-left: 5px;
+  margin-top: 105px;
+  border-radius: 50000px;
+}
+
+#tas {
+  margin-left: 5px;
+  font-family: Calibri;
+  width: 1000px;
+  color: white;
+}
+
+#tas2 {
+  margin-left: 9px;
+  font-family: Calibri;
+  width: 1000px;
+  color: white;
+  position: absolute;
+  top: 0px;
+}
+
+#tas3 {
+  margin-left: 5px;
+  font-family: Calibri;
+  width: 1000px;
+  color: white;
+}
+
+#tas4 {
+  margin-left: 5px;
+  font-family: Calibri;
+  width: 1000px;
+  color: white;
+}
+
+#tas5 {
+  margin-left: 5px;
+  font-family: Calibri;
+  width: 1000px;
+  color: white;
+}
+
+#tas6 {
+  margin-left: 5px;
+  font-family: Calibri;
+  width: 1000px;
+  color: white;
+}
+
+#tas7 {
+  margin-left: 5px;
+  font-family: Calibri;
+  width: 1000px;
+  color: white;
+}
+
+#plan2 {
+  background-color: #98b946;
+  width: 400px;
+  height: 200px;
+  margin-left: 25px;
+  position: absolute;
+  top: 2100px;
+  left: 100px;
 }
 
 /*--------------------------------------------------------------
