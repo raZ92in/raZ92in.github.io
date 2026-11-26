@@ -23,24 +23,24 @@ const igudziai = [
     let igudis = igudziai[i];
     if (igudis.Busena === 'Planuojama') {
       let planai = document.getElementById('planned');
-      let planas = document.createElement('div');
-      igudis = planas.innerHTML;
+      let planas = document.createElement('p');
+      igudis.XP = planas.innerHTML;
 	    planas.id = 'planas';
       planai.appendChild(planas);
-    } 
+    }
     
     if (igudis.Busena === 'Mokomasi') {
       let dalykai = document.getElementById('learning');
-      let dalykas = document.createElement('div');
-      igudis = dalykas.innerHTML;
+      let dalykas = document.createElement('p');
+      igudis.XP = dalykas.innerHTML;
 	    dalykas.id = 'dalykas';
       dalykai.appendChild(dalykas);
-    } 
+    }
     
     if (igudis.Busena === 'Atlikta') {
       let pasiekimai = document.getElementById('done');
-      let pasiekimas = document.createElement('div');
-      igudis = pasiekimas.innerHTML;
+      let pasiekimas = document.createElement('p');
+      igudis.XP = pasiekimas.innerHTML;
 	    pasiekimas.id = 'pasiekimas';
       pasiekimai.appendChild(pasiekimas);
     }
