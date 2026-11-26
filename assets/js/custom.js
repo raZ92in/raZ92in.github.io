@@ -6,6 +6,33 @@
 * License: https://bootstrapmade.com/license/
 */
 
+function PridetiIgudi() {
+
+const igudziai = [
+  {Pavadinimas: "Vairuotojo pazymejimas", Busena: "Planuojama", XP: 25},
+  {Pavadinimas: "Doktoranturos studijos", Busena: "Planuojama", XP: 15},
+  {Pavadinimas: "HTML", Busena: "Mokomasi", XP: 5},
+  {Pavadinimas: "CSS", Busena: "Mokomasi", XP: 45},
+  {Pavadinimas: "Matematine analize", Busena: "Mokomasi", XP: 35},
+  {Pavadinimas: "VBE", Busena: "Atlikta", XP: 60},
+  {Pavadinimas: "Programavimas C", Busena: "Atlikta", XP: 60}
+]
+
+  const l = igudziai.length - 1;
+  for (let i = 0; i < l; i++) {
+    let igudis = igudziai[i];
+    if (igudis.Busena === 'Planuojama') {
+      let planai = document.getElementById('planned');
+      let planas = document.createElement('h1');
+      igudis = planas.innerHTML;
+	  planas.id = 'planas';
+      planai.appendChild(planas);
+    }
+  }
+}
+
+PridetiIgudi()
+
 function myFunction() {
   const form = {
     Vardas: document.getElementById('vardas').value,

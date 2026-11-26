@@ -1829,6 +1829,12 @@ section,
   left: 570px;
 }
 
+#planas {
+  background-color: yellowgreen;
+  width: 450px;
+  height: 450px;
+}
+
 #done1 {
   background-color: #4648b9;
   width: 400px;
