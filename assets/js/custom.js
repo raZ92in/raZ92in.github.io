@@ -32,7 +32,7 @@ const igudziai = [
     if (igudis.Busena === 'Mokomasi') {
       let dalykai = document.getElementById('learning');
       let dalykas = document.createElement('p');
-      igudis.XP = dalykas.innerHTML;
+      dalykas.innerHTML = igudis.XP;
 	    dalykas.id = 'dalykas';
       dalykai.appendChild(dalykas);
     }
@@ -40,7 +40,7 @@ const igudziai = [
     if (igudis.Busena === 'Atlikta') {
       let pasiekimai = document.getElementById('done');
       let pasiekimas = document.createElement('p');
-      igudis.XP = pasiekimas.innerHTML;
+      pasiekimas.innerHTML = igudis.XP;
 	    pasiekimas.id = 'pasiekimas';
       pasiekimai.appendChild(pasiekimas);
     }
