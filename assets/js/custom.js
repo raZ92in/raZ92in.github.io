@@ -23,7 +23,7 @@ const igudziai = [
     let igudis = igudziai[i];
     if (igudis.Busena === 'Planuojama') {
       let planai = document.getElementById('planned');
-      let planas = document.createElement('h1');
+      let planas = document.createElement('div');
       igudis = planas.innerHTML;
 	    planas.id = 'planas';
       planai.appendChild(planas);
@@ -31,16 +31,16 @@ const igudziai = [
     
     if (igudis.Busena === 'Mokomasi') {
       let dalykai = document.getElementById('learning');
-      let dalykas = document.createElement('h1');
-      dalykas = planas.innerHTML;
+      let dalykas = document.createElement('div');
+      igudis = dalykas.innerHTML;
 	    dalykas.id = 'dalykas';
       dalykai.appendChild(dalykas);
     } 
     
     if (igudis.Busena === 'Atlikta') {
       let pasiekimai = document.getElementById('done');
-      let pasiekimas = document.createElement('h1');
-      pasiekimas = planas.innerHTML;
+      let pasiekimas = document.createElement('div');
+      igudis = pasiekimas.innerHTML;
 	    pasiekimas.id = 'pasiekimas';
       pasiekimai.appendChild(pasiekimas);
     }
