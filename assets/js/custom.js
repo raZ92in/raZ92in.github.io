@@ -24,7 +24,7 @@ const igudziai = [
     if (igudis.Busena === 'Planuojama') {
       let planai = document.getElementById('planned');
       let planas = document.createElement('p');
-      igudis.XP = planas.innerHTML;
+      planas.innerHTML = igudis.XP;
 	    planas.id = 'planas';
       planai.appendChild(planas);
     }
