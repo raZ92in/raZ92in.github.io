@@ -25,8 +25,21 @@ const igudziai = [
       let planai = document.getElementById('planned');
       let planas = document.createElement('h1');
       igudis = planas.innerHTML;
-	  planas.id = 'planas';
+	    planas.id = 'planas';
       planai.appendChild(planas);
+    
+    } else if (igudis.Busena === 'Mokomasi') {
+      let dalykai = document.getElementById('learning');
+      let dalykas = document.createElement('h1');
+      dalykas = planas.innerHTML;
+	    dalykas.id = 'dalykas';
+      dalykai.appendChild(dalykas);
+    } else {
+      let pasiekimai = document.getElementById('done');
+      let pasiekimas = document.createElement('h1');
+      pasiekimas = planas.innerHTML;
+	    pasiekimas.id = 'pasiekimas';
+      pasiekimai.appendChild(pasiekimas);
     }
   }
 }

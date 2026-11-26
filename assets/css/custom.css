@@ -1835,6 +1835,18 @@ section,
   height: 450px;
 }
 
+#dalykas {
+  background-color: palevioletred;
+  width: 450px;
+  height: 450px;
+}
+
+#pasiekimas {
+  background-color: burlywood;
+  width: 450px;
+  height: 450px;
+}
+
 #done1 {
   background-color: #4648b9;
   width: 400px;
