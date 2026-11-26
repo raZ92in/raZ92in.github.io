@@ -27,14 +27,17 @@ const igudziai = [
       igudis = planas.innerHTML;
 	    planas.id = 'planas';
       planai.appendChild(planas);
+    } 
     
-    } else if (igudis.Busena === 'Mokomasi') {
+    if (igudis.Busena === 'Mokomasi') {
       let dalykai = document.getElementById('learning');
       let dalykas = document.createElement('h1');
       dalykas = planas.innerHTML;
 	    dalykas.id = 'dalykas';
       dalykai.appendChild(dalykas);
-    } else {
+    } 
+    
+    if (igudis.Busena === 'Atlikta') {
       let pasiekimai = document.getElementById('done');
       let pasiekimas = document.createElement('h1');
       pasiekimas = planas.innerHTML;
